@@ -1,3 +1,33 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Antenna
+D Antenna symbol
+K antenna
+$ENDCMP
+#
+$CMP C
+D Unpolarized capacitor
+K cap capacitor
+$ENDCMP
+#
+$CMP CONN_01X03
+D Connector, single row, 01x03, pin header
+K connector
+$ENDCMP
+#
+$CMP CONN_01X16
+D Connector, single row, 01x16, pin header
+K connector
+$ENDCMP
+#
+$CMP L
+D Inductor
+K inductor choke coil reactor magnetic
+$ENDCMP
+#
+$CMP R
+D Resistor
+K r res resistor
+$ENDCMP
+#
 #End Doc Library
