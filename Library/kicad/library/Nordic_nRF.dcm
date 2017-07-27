@@ -1,3 +1,58 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP NRF51X22_CD
+D Nordic nRF51X22_CD
+K BLE, nRF51, WLCSP_C56_N
+$ENDCMP
+#
+$CMP NRF51X22_CE_CFCE
+D Nordic nRF51X22_CE_CFCE
+K BLE, nRF51, CEAA_WLCSP_C62_N
+$ENDCMP
+#
+$CMP NRF51X22_CE_CFCF
+D Nordic nRF51X22_CE_CFCF
+K BLE, nRF51, CFAC_WLCSP_C62_N
+$ENDCMP
+#
+$CMP NRF51X22_QFQF
+D Nordic nRF51X22-48_N
+K BLE, nRF51
+$ENDCMP
+#
+$CMP NRF52810_QF32
+D Nordic nRF52821_QF32
+K BLE, nRF52, QFN50P5mmX5mmX0.9mm-32_N
+$ENDCMP
+#
+$CMP NRF52810_QF48
+D Nordic nRF52810_QF48
+K BLE, nRF52
+$ENDCMP
+#
+$CMP NRF52832
+D Nordic nRF52832
+K BLE, nRF52
+$ENDCMP
+#
+$CMP NRF52832_CI
+D Nordic nRF52832_CI
+K BLE, nRF52
+$ENDCMP
+#
+$CMP XTAL_32KHZ
+D Two pin crystal, small symbol
+K quartz ceramic resonator oscillator
+$ENDCMP
+#
+$CMP XTAL_32MHZ
+D Four pin crystal (GND on pins 2 and 4), e.g. in SMD package
+K quartz ceramic resonator oscillator
+$ENDCMP
+#
+$CMP nRF52840
+D Nordic nRF52840
+K BLE 5.0, nRF52
+$ENDCMP
+#
 #End Doc Library
