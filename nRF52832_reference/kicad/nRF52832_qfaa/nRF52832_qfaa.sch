@@ -419,28 +419,6 @@ F 3 "" H 7850 3450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L L L2
-U 1 1 59739E09
-P 4750 1450
-F 0 "L2" H 4850 1550 50  0000 C CNN
-F 1 "10uH" H 4900 1400 50  0000 C CNN
-F 2 "Inductors_SMD:L_0603" H 4750 1450 50  0001 C CNN
-F 3 "" H 4750 1450 50  0001 C CNN
-	1    4750 1450
-	1    0    0    -1  
-$EndComp
-$Comp
-L L L3
-U 1 1 59739E0A
-P 4750 1050
-F 0 "L3" H 4850 1150 50  0000 C CNN
-F 1 "15nH" H 4900 1000 50  0000 C CNN
-F 2 "Inductors_SMD:L_0402" H 4750 1050 50  0001 C CNN
-F 3 "" H 4750 1050 50  0001 C CNN
-	1    4750 1050
-	1    0    0    -1  
-$EndComp
-$Comp
 L C C10
 U 1 1 59739E0B
 P 5350 900
@@ -631,17 +609,7 @@ Wire Wire Line
 	6650 3250 7750 3250
 Connection ~ 7500 3450
 Wire Wire Line
-	4750 1200 4750 1300
-Wire Wire Line
-	4750 1600 4750 1700
-Wire Wire Line
-	4750 1700 4950 1700
-Wire Wire Line
-	4950 1700 4950 2150
-Wire Wire Line
 	4750 750  5350 750 
-Wire Wire Line
-	4750 750  4750 900 
 Wire Wire Line
 	5350 1050 5350 1150
 Wire Wire Line
@@ -749,7 +717,7 @@ Text Label 6950 1500 0    60   ~ 0
 DEC3
 Text Label 7450 1500 0    60   ~ 0
 DEC2
-Text Label 5050 750  0    60   ~ 0
+Text Label 4750 750  0    60   ~ 0
 DEC4
 Wire Wire Line
 	4200 1600 4500 1600
