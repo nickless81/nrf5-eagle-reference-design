@@ -39,7 +39,7 @@ LabSize=60
 version=1
 LibDir=${NORDICLIB}
 [eeschema/libraries]
-LibName1=nRF52832_qfaa_nfc-rescue
+LibName1=nRF52832_qfaa_dcdc-rescue
 LibName2=74xgxx
 LibName3=74xx
 LibName4=ac-dc
