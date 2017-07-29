@@ -1,6 +1,5 @@
 EESchema Schematic File Version 2
 LIBS:nRF52832_qfaa_nfc-rescue
-LIBS:nrf52
 LIBS:74xgxx
 LIBS:74xx
 LIBS:ac-dc
@@ -102,6 +101,8 @@ LIBS:Xicor
 LIBS:xilinx
 LIBS:zetex
 LIBS:Zilog
+LIBS:Nordic_misc
+LIBS:Nordic_nRF
 LIBS:nRF52832_qfaa_nfc-cache
 EELAYER 25 0
 EELAYER END
@@ -464,9 +465,9 @@ $EndComp
 Wire Wire Line
 	3800 3150 4150 3150
 Wire Wire Line
-	2650 3950 4150 3950
+	2550 3950 4150 3950
 Wire Wire Line
-	2650 3850 4150 3850
+	2550 3850 4150 3850
 Wire Wire Line
 	3800 3750 4150 3750
 Wire Wire Line
@@ -873,26 +874,60 @@ Wire Wire Line
 Wire Wire Line
 	4750 2050 4200 2050
 Connection ~ 4200 2050
-$Comp
-L CONN_01X05 J1
-U 1 1 59742685
-P 2350 3900
-F 0 "J1" H 2350 4200 50  0000 C CNN
-F 1 "NFC" V 2450 3900 50  0000 C CNN
-F 2 "nRF52:FPC_05P-05mm-RA-SMD_Alt" H 2350 3900 50  0001 C CNN
-F 3 "" H 2350 3900 50  0001 C CNN
-	1    2350 3900
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	2550 3800 2650 3800
-Wire Wire Line
-	2650 3800 2650 3850
-Wire Wire Line
-	2650 3950 2650 4000
-Wire Wire Line
-	2650 4000 2550 4000
 NoConn ~ 2550 3700
-NoConn ~ 2550 3900
-NoConn ~ 2550 4100
+$Comp
+L Mounting_Hole MK1
+U 1 1 597CF176
+P 8950 1200
+F 0 "MK1" H 8950 1400 50  0000 C CNN
+F 1 "Mounting_Hole" H 8950 1325 50  0000 C CNN
+F 2 "Nordic_misc:MountingHole_3mm" H 8950 1200 50  0001 C CNN
+F 3 "" H 8950 1200 50  0001 C CNN
+	1    8950 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mounting_Hole MK3
+U 1 1 597CF2FD
+P 9500 1200
+F 0 "MK3" H 9500 1400 50  0000 C CNN
+F 1 "Mounting_Hole" H 9500 1325 50  0000 C CNN
+F 2 "Nordic_misc:MountingHole_3mm" H 9500 1200 50  0001 C CNN
+F 3 "" H 9500 1200 50  0001 C CNN
+	1    9500 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mounting_Hole MK2
+U 1 1 597CF36C
+P 8950 1550
+F 0 "MK2" H 8950 1750 50  0000 C CNN
+F 1 "Mounting_Hole" H 8950 1675 50  0000 C CNN
+F 2 "Nordic_misc:MountingHole_3mm" H 8950 1550 50  0001 C CNN
+F 3 "" H 8950 1550 50  0001 C CNN
+	1    8950 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mounting_Hole MK4
+U 1 1 597CF3E8
+P 9500 1550
+F 0 "MK4" H 9500 1750 50  0000 C CNN
+F 1 "Mounting_Hole" H 9500 1675 50  0000 C CNN
+F 2 "Nordic_misc:MountingHole_3mm" H 9500 1550 50  0001 C CNN
+F 3 "" H 9500 1550 50  0001 C CNN
+	1    9500 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L NFC_ANTENNA NFC1
+U 1 1 597D020B
+P 2050 3750
+F 0 "NFC1" H 2050 3700 39  0000 C CNN
+F 1 "NFC_ANTENNA" H 2150 4120 45  0000 R TNN
+F 2 "Nordic_misc:Nordic_misc-NFC_ANT" H 2080 3900 20  0001 C CNN
+F 3 "" H 2050 3750 60  0001 C CNN
+	1    2050 3750
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
