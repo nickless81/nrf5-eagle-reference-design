@@ -1,6 +1,6 @@
 (export (version D)
   (design
-    (source /home/jose/Documents/Softtek/CR/PoC/Nordic/nrf5-eagle-reference-design/nRF52832_reference/kicad/nRF52832_qfaa_dcdc/nRF52832_qfaa_dcdc.sch)
+    (source /home/jose/Documents/Softtek/CR/PoC/Nordic/nrf5-eagle-reference-design/nRF52832_reference/kicad/nRF52832_qfaa/nRF52832_qfaa.sch)
     (date "sáb 29 jul 2017 16:21:54 CST")
     (tool "Eeschema 4.0.7-e1-6374~58~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
@@ -9,7 +9,7 @@
         (company)
         (rev 0.9)
         (date 2017-07-22)
-        (source nRF52832_qfaa_dcdc.sch)
+        (source nRF52832_qfaa.sch)
         (comment (number 1) (value ""))
         (comment (number 2) (value ""))
         (comment (number 3) (value ""))
@@ -120,7 +120,7 @@
     (comp (ref nRF1)
       (value nRF52832)
       (footprint nRF52:UQFN-48-1EP_6x6mm_Pitch0.4mm)
-      (libsource (lib nRF52832_qfaa_dcdc-cache) (part nRF52832))
+      (libsource (lib nRF52832_qfaa-cache) (part nRF52832))
       (sheetpath (names /) (tstamps /))
       (tstamp 59739DE6))
     (comp (ref MK1)
@@ -201,7 +201,7 @@
       (fields
         (field (name Reference) MK)
         (field (name Value) Mounting_Hole)))
-    (libpart (lib nRF52832_qfaa_dcdc-cache) (part nRF52832)
+    (libpart (lib nRF52832_qfaa-cache) (part nRF52832)
       (fields
         (field (name Reference) nRF)
         (field (name Value) nRF52832))
@@ -260,8 +260,8 @@
       (uri /usr/share/kicad/library/device.lib))
     (library (logical mechanical)
       (uri /usr/share/kicad/library/mechanical.lib))
-    (library (logical nRF52832_qfaa_dcdc-cache)
-      (uri /home/jose/Documents/Softtek/CR/PoC/Nordic/nrf5-eagle-reference-design/nRF52832_reference/kicad/nRF52832_qfaa_dcdc/nRF52832_qfaa_dcdc-cache.lib)))
+    (library (logical nRF52832_qfaa-cache)
+      (uri /home/jose/Documents/Softtek/CR/PoC/Nordic/nrf5-eagle-reference-design/nRF52832_reference/kicad/nRF52832_qfaa/nRF52832_qfaa-cache.lib)))
   (nets
     (net (code 1) (name /DEC1)
       (node (ref nRF1) (pin 1))
