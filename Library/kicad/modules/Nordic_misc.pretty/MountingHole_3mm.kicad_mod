@@ -10,12 +10,12 @@
   (fp_circle (center 0 0) (end 3 0) (layer Cmts.User) (width 0.15))
   (fp_circle (center 0 0) (end 3.25 0) (layer F.CrtYd) (width 0.05))
   (pad 1 np_thru_hole circle (at 0 0) (size 3 3) (drill 3) (layers *.Cu *.Mask))
-  (model ../../../../../../cygwin64/home/josep.castro/git-repo/CR/nrf5-eagle-reference-design/Library/kicad/modules/packages3d/Screw_Spacer/Screw_3mm.wrl
+  (model ${NORDIC3DMOD}/Screw_Spacer/Screw_3mm.wrl
     (at (xyz 0 0 -0.25))
     (scale (xyz 0.4 0.4 0.4))
     (rotate (xyz 90 0 0))
   )
-  (model ../../../../../../cygwin64/home/josep.castro/git-repo/CR/nrf5-eagle-reference-design/Library/kicad/modules/packages3d/Screw_Spacer/Spacer_3mm.wrl
+  (model ${NORDIC3DMOD}/Screw_Spacer/Spacer_3mm.wrl
     (at (xyz 0 0 -0.25))
     (scale (xyz 0.4 0.4 0.4))
     (rotate (xyz 90 0 0))
