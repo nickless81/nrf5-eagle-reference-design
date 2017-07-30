@@ -20,6 +20,11 @@ D Connector, single row, 01x16, pin header
 K connector
 $ENDCMP
 #
+$CMP CONN_COAXIAL
+D coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)
+K BNC SMA SMB SMC coaxial connector CINCH RCA
+$ENDCMP
+#
 $CMP L
 D Inductor
 K inductor choke coil reactor magnetic
