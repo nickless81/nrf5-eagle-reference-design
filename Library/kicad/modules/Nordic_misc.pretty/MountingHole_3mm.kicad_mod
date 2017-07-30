@@ -12,12 +12,12 @@
   (pad 1 np_thru_hole circle (at 0 0) (size 3 3) (drill 3) (layers *.Cu *.Mask))
   (model ${NORDIC3DMOD}/Screw_Spacer/Screw_3mm.wrl
     (at (xyz 0 0 -0.25))
-    (scale (xyz 0.4 0.4 0.4))
-    (rotate (xyz 90 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
   )
   (model ${NORDIC3DMOD}/Screw_Spacer/Spacer_3mm.wrl
     (at (xyz 0 0 -0.25))
-    (scale (xyz 0.4 0.4 0.4))
-    (rotate (xyz 90 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
   )
 )
