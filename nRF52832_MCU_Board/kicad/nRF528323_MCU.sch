@@ -112,7 +112,7 @@ EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 2 4
+Sheet 4 4
 Title ""
 Date "2017-07-22"
 Rev "0.9"
@@ -281,7 +281,7 @@ U 1 1 597D1439
 P 2050 2800
 F 0 "X2" V 2000 2950 50  0000 C CNN
 F 1 "32.768kHz" V 2150 3050 50  0000 C CNN
-F 2 "Crystals:Crystal_SMD_3215-2pin_3.2x1.5mm" H 2050 2800 50  0001 C CNN
+F 2 "Nordic_nRF:Crystal_SMD_3215-2pin_3.2x1.5mm" H 2050 2800 50  0001 C CNN
 F 3 "" H 2050 2800 50  0001 C CNN
 	1    2050 2800
 	0    1    1    0   
@@ -648,7 +648,7 @@ U 1 1 597D144A
 P 8650 2700
 F 0 "X1" V 8450 2500 50  0000 L CNN
 F 1 "32MHz" V 8550 2300 50  0000 L CNN
-F 2 "Crystals:Crystal_SMD_2016-4pin_2.0x1.6mm" H 8650 2700 50  0001 C CNN
+F 2 "Nordic_nRF:Crystal_SMD_2016-4pin_2.0x1.6mm" H 8650 2700 50  0001 C CNN
 F 3 "" H 8650 2700 50  0001 C CNN
 	1    8650 2700
 	0    1    1    0   
