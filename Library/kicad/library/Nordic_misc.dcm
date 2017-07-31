@@ -20,6 +20,11 @@ D Connector, single row, 01x16, pin header
 K connector
 $ENDCMP
 #
+$CMP CONN_02X05
+D Connector, double row, 02x05, pin header
+K connector
+$ENDCMP
+#
 $CMP CONN_COAXIAL
 D coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)
 K BNC SMA SMB SMC coaxial connector CINCH RCA
