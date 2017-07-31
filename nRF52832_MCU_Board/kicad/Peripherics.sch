@@ -1,58 +1,50 @@
 EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
+LIBS:nRF52832_MCU_Board-rescue
+LIBS:Nordic_misc
+LIBS:Nordic_nRF
 LIBS:74xgxx
+LIBS:74xx
 LIBS:ac-dc
 LIBS:actel
+LIBS:adc-dac
 LIBS:allegro
 LIBS:Altera
 LIBS:analog_devices
+LIBS:analog_switches
+LIBS:atmel
+LIBS:audio
 LIBS:battery_management
 LIBS:bbd
 LIBS:bosch
 LIBS:brooktre
 LIBS:cmos_ieee
+LIBS:cmos4000
+LIBS:conn
+LIBS:contrib
+LIBS:cypress
 LIBS:dc-dc
+LIBS:device
+LIBS:digital-audio
 LIBS:diode
+LIBS:display
+LIBS:dsp
 LIBS:elec-unifil
 LIBS:ESD_Protection
 LIBS:ftdi
 LIBS:gennum
 LIBS:graphic
 LIBS:hc11
+LIBS:intel
+LIBS:interface
 LIBS:ir
 LIBS:Lattice
 LIBS:leds
+LIBS:linear
 LIBS:logo
 LIBS:maxim
 LIBS:mechanical
+LIBS:memory
+LIBS:microchip
 LIBS:microchip_dspic33dsc
 LIBS:microchip_pic10mcu
 LIBS:microchip_pic12mcu
@@ -60,53 +52,57 @@ LIBS:microchip_pic16mcu
 LIBS:microchip_pic18mcu
 LIBS:microchip_pic24mcu
 LIBS:microchip_pic32mcu
+LIBS:microcontrollers
 LIBS:modules
 LIBS:motor_drivers
+LIBS:motorola
 LIBS:motors
 LIBS:msp430
 LIBS:nordicsemi
 LIBS:nxp
 LIBS:nxp_armmcu
 LIBS:onsemi
-LIBS:OPA4134
+LIBS:opto
 LIBS:Oscillators
-LIBS:PCM3168A
-LIBS:powerint
+LIBS:philips
+LIBS:power
 LIBS:Power_Management
+LIBS:powerint
 LIBS:pspice
 LIBS:references
+LIBS:regul
 LIBS:relays
 LIBS:rfcom
 LIBS:sensors
 LIBS:silabs
+LIBS:siliconi
 LIBS:stm8
 LIBS:stm32
 LIBS:supertex
 LIBS:switches
-LIBS:TMS320VC5502
+LIBS:texas
 LIBS:transf
+LIBS:transistors
 LIBS:triac_thyristor
-LIBS:TS3A27518E
 LIBS:ttl_ieee
+LIBS:valves
 LIBS:video
 LIBS:w_analog
-LIBS:w_connectors
 LIBS:w_device
-LIBS:wiznet
 LIBS:w_logic
 LIBS:w_memory
 LIBS:w_microcontrollers
 LIBS:w_opto
-LIBS:Worldsemi
 LIBS:w_relay
 LIBS:w_rtx
 LIBS:w_transistor
 LIBS:w_vacuum
+LIBS:wiznet
+LIBS:Worldsemi
 LIBS:Xicor
+LIBS:xilinx
 LIBS:zetex
 LIBS:Zilog
-LIBS:Nordic_misc
-LIBS:Nordic_nRF
 LIBS:nRF52832_MCU_Board-cache
 EELAYER 25 0
 EELAYER END
@@ -126,6 +122,8 @@ $Comp
 L LED D2
 U 1 1 597D6C73
 P 5600 4500
+AR Path="/597D6C73" Ref="D2"  Part="1" 
+AR Path="/597D3B45/597D6C73" Ref="D2"  Part="1" 
 F 0 "D2" H 5600 4600 50  0000 C CNN
 F 1 "LED" H 5600 4400 50  0000 C CNN
 F 2 "Nordic_misc:LED_0603" H 5600 4500 50  0001 C CNN
@@ -137,6 +135,8 @@ $Comp
 L LED D3
 U 1 1 597D6D22
 P 5950 4500
+AR Path="/597D6D22" Ref="D3"  Part="1" 
+AR Path="/597D3B45/597D6D22" Ref="D3"  Part="1" 
 F 0 "D3" H 5950 4600 50  0000 C CNN
 F 1 "LED" H 5950 4400 50  0000 C CNN
 F 2 "Nordic_misc:LED_0603" H 5950 4500 50  0001 C CNN
@@ -148,6 +148,8 @@ $Comp
 L LED D1
 U 1 1 597D6D42
 P 6350 4500
+AR Path="/597D6D42" Ref="D1"  Part="1" 
+AR Path="/597D3B45/597D6D42" Ref="D1"  Part="1" 
 F 0 "D1" H 6350 4600 50  0000 C CNN
 F 1 "LED" H 6350 4400 50  0000 C CNN
 F 2 "Nordic_misc:LED_0603" H 6350 4500 50  0001 C CNN
@@ -577,7 +579,7 @@ U 1 1 597DA61A
 P 6400 1600
 F 0 "J4" H 6400 1800 50  0000 C CNN
 F 1 "CONN_01X03" V 6500 1600 50  0000 C CNN
-F 2 "Nordic_misc:bb02-hy03a" H 6400 1600 50  0001 C CNN
+F 2 "Nordic_misc:Pin_Header_Straight_1x03_Pitch2.54mm" H 6400 1600 50  0001 C CNN
 F 3 "" H 6400 1600 50  0001 C CNN
 	1    6400 1600
 	-1   0    0    1   
@@ -588,7 +590,7 @@ U 1 1 597DA746
 P 8550 1600
 F 0 "J1" H 8550 1800 50  0000 C CNN
 F 1 "CONN_01X03" V 8650 1600 50  0000 C CNN
-F 2 "Nordic_misc:bb02-hy03a" H 8550 1600 50  0001 C CNN
+F 2 "Nordic_misc:Pin_Header_Straight_1x03_Pitch2.54mm" H 8550 1600 50  0001 C CNN
 F 3 "" H 8550 1600 50  0001 C CNN
 	1    8550 1600
 	1    0    0    -1  
