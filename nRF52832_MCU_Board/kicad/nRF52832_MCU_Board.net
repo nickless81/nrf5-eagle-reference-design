@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:/cygwin64/home/josep.castro/git-repo/CR/nrf5-eagle-reference-design/nRF52832_MCU_Board/kicad/nRF52832_MCU_Board.sch)
-    (date "7/31/2017 03:37:12 PM")
+    (date "7/31/2017 05:39:26 PM")
     (tool "Eeschema 4.0.6")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -86,7 +86,7 @@
       (tstamp 597D3A7A))
     (comp (ref BATT1)
       (value CR1632)
-      (footprint Nordic_misc:keystone_3000)
+      (footprint Nordic_misc:Keystone_1058_1x2032-CoinCell)
       (libsource (lib Nordic_misc) (part CR1632))
       (sheetpath (names /PowerSupply/) (tstamps /597D270C/))
       (tstamp 597D3B0B))
@@ -697,14 +697,14 @@
         (pin (num 48) (name VDD) (type power_in))
         (pin (num 49) (name GND) (type power_out)))))
   (libraries
+    (library (logical mechanical)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\mechanical.lib"))
     (library (logical conn)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib"))
     (library (logical Nordic_misc)
       (uri C:\cygwin64\home\josep.castro\git-repo\CR\nrf5-eagle-reference-design\Library\kicad\library\Nordic_misc.lib))
     (library (logical device)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
-    (library (logical mechanical)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\mechanical.lib"))
     (library (logical nRF52832_MCU_Board-cache)
       (uri C:\cygwin64\home\josep.castro\git-repo\CR\nrf5-eagle-reference-design\nRF52832_MCU_Board\kicad\nRF52832_MCU_Board-cache.lib)))
   (nets
