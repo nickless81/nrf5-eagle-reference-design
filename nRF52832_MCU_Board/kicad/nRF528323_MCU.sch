@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:nRF52832_MCU_Board-rescue
 LIBS:Nordic_misc
 LIBS:Nordic_nRF
 LIBS:74xgxx

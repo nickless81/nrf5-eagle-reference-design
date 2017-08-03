@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:nRF52832_MCU_Board-rescue
 LIBS:Nordic_misc
 LIBS:Nordic_nRF
 LIBS:74xgxx
@@ -324,8 +323,8 @@ L CR1632 BATT1
 U 1 1 597D3B0B
 P 2550 2750
 F 0 "BATT1" H 2650 2950 39  0000 C CNN
-F 1 "CR1632" H 2700 2650 39  0000 C CNN
-F 2 "w_battery_holders:keystone_3000" H 2580 2900 20  0001 C CNN
+F 1 "CR2032" H 2700 2650 39  0000 C CNN
+F 2 "Nordic_misc:keystone_3003" H 2580 2900 20  0001 C CNN
 F 3 "" H 2550 2750 60  0001 C CNN
 	1    2550 2750
 	1    0    0    -1  
