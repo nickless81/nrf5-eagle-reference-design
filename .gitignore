@@ -7,3 +7,6 @@
 *.bck
 *.fcstd1
 *.FCStd1
+nRF52832_MCU_Board/kicad/*.FCStd
+nRF52832_MCU_Board/kicad/*.step
+
