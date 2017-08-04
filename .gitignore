@@ -9,4 +9,5 @@
 *.FCStd1
 nRF52832_MCU_Board/kicad/*.FCStd
 nRF52832_MCU_Board/kicad/*.step
-
+nRF52840_reference/kicad/*/*.FCStd
+nRF52840_reference/kicad/*/*.step
