@@ -289,28 +289,6 @@ F 3 "" H 1700 2450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L L L3
-U 1 1 5983C1A6
-P 3600 1250
-F 0 "L3" H 3500 1350 50  0000 C CNN
-F 1 "15nH" H 3500 1250 50  0000 C CNN
-F 2 "Nordic_misc:L_0402" H 3600 1250 50  0001 C CNN
-F 3 "" H 3600 1250 50  0001 C CNN
-	1    3600 1250
-	1    0    0    -1  
-$EndComp
-$Comp
-L L L2
-U 1 1 5983C1F7
-P 3600 1700
-F 0 "L2" H 3500 1800 50  0000 C CNN
-F 1 "10uH" H 3500 1700 50  0000 C CNN
-F 2 "Nordic_misc:L_0603" H 3600 1700 50  0001 C CNN
-F 3 "" H 3600 1700 50  0001 C CNN
-	1    3600 1700
-	1    0    0    -1  
-$EndComp
-$Comp
 L L L1
 U 1 1 5983C244
 P 7500 3400
@@ -827,13 +805,7 @@ Wire Wire Line
 	3600 2000 3600 2550
 Connection ~ 3200 2000
 Wire Wire Line
-	3600 1400 3600 1550
-Wire Wire Line
-	3700 1850 3700 2550
-Wire Wire Line
 	4100 1600 4100 1750
-Wire Wire Line
-	3600 1100 3600 950 
 Wire Wire Line
 	3600 950  4100 950 
 Wire Wire Line
@@ -848,8 +820,6 @@ Wire Wire Line
 Wire Wire Line
 	3900 1650 4100 1650
 Connection ~ 4100 1650
-Wire Wire Line
-	3600 1850 3700 1850
 Wire Wire Line
 	5200 1700 5200 1550
 Wire Wire Line
@@ -1196,4 +1166,6 @@ Wire Wire Line
 Wire Wire Line
 	3500 2450 3200 2450
 Connection ~ 3200 2450
+Text Label 3600 950  2    60   ~ 0
+DEC4
 $EndSCHEMATC
