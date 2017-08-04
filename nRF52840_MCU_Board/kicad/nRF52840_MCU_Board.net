@@ -1,6 +1,6 @@
 (export (version D)
   (design
-    (source C:/cygwin64/home/josep.castro/git-repo/CR/nrf5-eagle-reference-design/nRF52840_reference/kicad/nRF52840_qfaa_nfc/nRF52840_qfaa_nfc.sch)
+    (source C:/cygwin64/home/josep.castro/git-repo/CR/nrf5-eagle-reference-design/nRF52840_MCU_Board/kicad/nRF52840_nRF52840_MCU_Board.sch)
     (date "8/4/2017 01:17:32 PM")
     (tool "Eeschema 4.0.6")
     (sheet (number 1) (name /) (tstamps /)
@@ -9,7 +9,7 @@
         (company)
         (rev)
         (date)
-        (source nRF52840_qfaa_nfc.sch)
+        (source nRF52840_MCU_Board.sch)
         (comment (number 1) (value ""))
         (comment (number 2) (value ""))
         (comment (number 3) (value ""))
