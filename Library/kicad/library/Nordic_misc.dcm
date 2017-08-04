@@ -35,6 +35,11 @@ D Inductor
 K inductor choke coil reactor magnetic
 $ENDCMP
 #
+$CMP Mounting_Hole
+D Mounting Hole without connection
+K mounting hole
+$ENDCMP
+#
 $CMP R
 D Resistor
 K r res resistor
