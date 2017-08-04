@@ -1264,4 +1264,9 @@ Text Label 8600 5100 2    60   ~ 0
 NFC1
 Text Label 8600 5000 2    60   ~ 0
 NFC2
+Wire Wire Line
+	3500 2550 3500 2450
+Wire Wire Line
+	3500 2450 3200 2450
+Connection ~ 3200 2450
 $EndSCHEMATC
