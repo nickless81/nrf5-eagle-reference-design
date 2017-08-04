@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:/cygwin64/home/josep.castro/git-repo/CR/nrf5-eagle-reference-design/nRF52840_reference/kicad/nRF52840_qfaa/nRF52840_qfaa.sch)
-    (date "8/4/2017 01:31:26 PM")
+    (date "8/4/2017 01:51:06 PM")
     (tool "Eeschema 4.0.6")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -333,10 +333,10 @@
   (libraries
     (library (logical device)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
-    (library (logical conn)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib"))
     (library (logical Nordic_nRF)
-      (uri C:\cygwin64\home\josep.castro\git-repo\CR\nrf5-eagle-reference-design\Library\kicad\library\Nordic_nRF.lib)))
+      (uri C:\cygwin64\home\josep.castro\git-repo\CR\nrf5-eagle-reference-design\Library\kicad\library\Nordic_nRF.lib))
+    (library (logical conn)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib")))
   (nets
     (net (code 1) (name "Net-(C13-Pad1)")
       (node (ref U1) (pin A18))
