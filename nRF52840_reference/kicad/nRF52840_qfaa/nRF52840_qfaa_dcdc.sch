@@ -102,7 +102,7 @@ LIBS:zetex
 LIBS:Zilog
 LIBS:Nordic_misc
 LIBS:Nordic_nRF
-LIBS:nRF52840_qfaa_dcdc-cache
+LIBS:nRF52840_qfaa-cache
 EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
