@@ -123,7 +123,7 @@ U 1 1 598768F5
 P 5500 2000
 F 0 "J5" H 5500 2500 50  0000 C CNN
 F 1 "Digital3" V 5500 2000 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x09_Pitch2.54mm" H 5500 800 50  0001 C CNN
+F 2 "Nordic_misc:Pin_Header_Straight_2x09_Pitch2.54mm" H 5500 800 50  0001 C CNN
 F 3 "" H 5500 800 50  0001 C CNN
 	1    5500 2000
 	1    0    0    -1  
@@ -134,7 +134,7 @@ U 1 1 5987697A
 P 10700 3300
 F 0 "J8" H 10700 3750 50  0000 C CNN
 F 1 "Digital2" V 10800 3300 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 10700 3300 50  0001 C CNN
+F 2 "Nordic_misc:Pin_Header_Straight_1x08_Pitch2.54mm" H 10700 3300 50  0001 C CNN
 F 3 "" H 10700 3300 50  0001 C CNN
 	1    10700 3300
 	1    0    0    -1  
@@ -145,7 +145,7 @@ U 1 1 59876B99
 P 10700 2400
 F 0 "J7" H 10700 2850 50  0000 C CNN
 F 1 "Digital1" V 10800 2400 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 10700 2400 50  0001 C CNN
+F 2 "Nordic_misc:Pin_Header_Straight_1x08_Pitch2.54mm" H 10700 2400 50  0001 C CNN
 F 3 "" H 10700 2400 50  0001 C CNN
 	1    10700 2400
 	1    0    0    -1  
@@ -156,7 +156,7 @@ U 1 1 59876BD3
 P 10700 1350
 F 0 "J6" H 10700 1900 50  0000 C CNN
 F 1 "Digital0" V 10800 1350 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x10_Pitch2.54mm" H 10700 1350 50  0001 C CNN
+F 2 "Nordic_misc:Pin_Header_Straight_1x10_Pitch2.54mm" H 10700 1350 50  0001 C CNN
 F 3 "" H 10700 1350 50  0001 C CNN
 	1    10700 1350
 	1    0    0    -1  
@@ -167,7 +167,7 @@ U 1 1 59876D70
 P 2100 2050
 F 0 "J3" H 2100 2500 50  0000 C CNN
 F 1 "Power" V 2200 2050 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 2100 2050 50  0001 C CNN
+F 2 "Nordic_misc:Pin_Header_Straight_1x08_Pitch2.54mm" H 2100 2050 50  0001 C CNN
 F 3 "" H 2100 2050 50  0001 C CNN
 	1    2100 2050
 	-1   0    0    -1  
@@ -178,7 +178,7 @@ U 1 1 59876E25
 P 2100 2950
 F 0 "J4" H 2100 3400 50  0000 C CNN
 F 1 "Analog" V 2200 2950 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 2100 2950 50  0001 C CNN
+F 2 "Nordic_misc:Pin_Header_Straight_1x08_Pitch2.54mm" H 2100 2950 50  0001 C CNN
 F 3 "" H 2100 2950 50  0001 C CNN
 	1    2100 2950
 	-1   0    0    -1  
