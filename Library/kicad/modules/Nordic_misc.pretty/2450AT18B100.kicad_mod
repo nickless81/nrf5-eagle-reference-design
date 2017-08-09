@@ -21,7 +21,7 @@
   (pad 2 smd rect (at -3.5 0) (size 1 2) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at 0 -0.815) (size 2.8 0.8) (layers F.Cu F.Paste F.Mask))
   (pad 4 smd rect (at 0 0.815) (size 2.8 0.8) (layers F.Cu F.Paste F.Mask))
-  (model ../../../../../home/jose/Documents/Softtek/CR/PoC/Nordic/nrf5-eagle-reference-design/Library/kicad/modules/packages3d/Antenna.3dshapes/2450AT43B100-EB1SMA.wrl
+  (model ${NORDIC3DMOD}/Antenna.3dshapes/2450AT43B100-EB1SMA.wrl
     (at (xyz -0.1375 -0.04 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
