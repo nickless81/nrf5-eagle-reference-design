@@ -1,4 +1,4 @@
-(module Pin_Header_Straight_2x05_Pitch1.27mm_SMD (layer F.Cu) (tedit 597D5938)
+(module Pin_Header_Straight_2x05_Pitch1.27mm_SMD (layer F.Cu) (tedit 599DF4E7)
   (descr "surface-mounted straight pin header, 2x05, 1.27mm pitch, double rows")
   (tags "Surface mounted pin header SMD 2x05 1.27mm double row")
   (attr smd)
@@ -80,10 +80,5 @@
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
-  )
-  (model ${NORDIC3DMOD}/Pin_Headers.3dshapes/FTSH-105-01-L-DV.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 90))
   )
 )
