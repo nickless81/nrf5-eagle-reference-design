@@ -1,4 +1,4 @@
-(module 2450AT18B100 (layer F.Cu) (tedit 598A6F27)
+(module 2450AT18B100 (layer F.Cu) (tedit 59A6EDB5)
   (fp_text reference REF** (at 0.15 1.6) (layer F.SilkS)
     (effects (font (size 0.5 0.5) (thickness 0.0625)))
   )
@@ -21,8 +21,8 @@
   (pad 2 smd rect (at -3.5 0) (size 1 2) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at 0 -0.815) (size 2.8 0.8) (layers F.Cu F.Paste F.Mask))
   (pad 4 smd rect (at 0 0.815) (size 2.8 0.8) (layers F.Cu F.Paste F.Mask))
-  (model ${NORDIC3DMOD}/Antenna.3dshapes/2450AT43B100-EB1SMA.wrl
-    (at (xyz -0.1375 -0.04 0))
+  (model ${NORDIC3DMOD}/Antenna.3dshapes/2450AT43B100-EB1SMA.step
+    (at (xyz -0.1377952755905512 -0.03937007874015748 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
