@@ -1,3 +1,3 @@
 ## Reference designs
-![alt-text][qfaa_nfc]
+![Alt text][nRF52832_qfaa_nfc.png]
 
