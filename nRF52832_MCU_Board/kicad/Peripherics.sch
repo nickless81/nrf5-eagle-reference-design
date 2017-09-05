@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:nRF52832_MCU_Board-rescue
 LIBS:Nordic_misc
 LIBS:Nordic_nRF
 LIBS:74xgxx
@@ -103,7 +104,7 @@ LIBS:xilinx
 LIBS:zetex
 LIBS:Zilog
 LIBS:nRF52832_MCU_Board-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
